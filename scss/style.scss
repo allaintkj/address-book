@@ -1,0 +1,140 @@
+$green: rgb(28, 184, 65);
+$grey: #eeeeee;
+$primary: #0078e7;
+$red: rgb(202, 60, 60);
+$secondary: rgb(66, 184, 221);
+$warning: rgb(223, 117, 20);
+$white: #ffffff;
+
+// PureCSS
+@import '../css/pure.css';
+@import '../css/grids-responsive.css';
+
+// Customized styles
+@import './scss/contacts';
+
+// Elements
+a {
+    color: #000000;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+body {
+    padding: 1em;
+}
+
+form {
+    background-color: $grey;
+    padding: 2em;
+
+    input {
+        width: 100%;
+    }
+
+    label {
+        text-align: left;
+    }
+
+    textarea {
+        resize: none;
+    }
+}
+
+// Global classes and utilities
+.align-items-center {
+    align-items: center;
+}
+
+.bg-color,
+.button {
+    &-error {
+        color: $white;
+        background-color: $red;
+    }
+
+    &-secondary {
+        color: $white;
+        background-color: $secondary;
+    }
+
+    &-success {
+        color: $white;
+        background-color: $green;
+    }
+
+    &-warning {
+        color: $white;
+        background-color: $warning;
+    }
+}
+
+.d {
+    &-block {
+        display: block;
+    }
+
+    &-flex {
+        display: flex;
+    }
+}
+
+.field {
+    margin-bottom: 1em;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.justify {
+    &-between {
+        justify-content: space-between;
+    }
+
+    &-center {
+        justify-content: center;
+    }
+}
+
+.mx {
+    &-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.page {
+    &-subtitle {
+        margin-bottom: 2em;
+    }
+
+    &-title {
+        margin-bottom: 3em;
+    }
+}
+
+.pure-button {
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.pure-form-message {
+    padding: 0.75em;
+}
+
+.text {
+    &-center {
+        text-align: center;
+    }
+
+    &-left {
+        text-align: left;
+    }
+
+    &-right {
+        text-align: right;
+    }
+}
