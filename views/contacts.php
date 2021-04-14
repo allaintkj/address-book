@@ -68,12 +68,12 @@
                             </a>
                         </div>
 
-                        <div class='pure-u-1 pure-u-lg-2-3'>
+                        <!-- <div class='pure-u-1 pure-u-lg-2-3'>
                             <form class='pure-form pure-form-stacked' action='<?php echo $_SERVER['PHP_SELF']; ?>'>
                                 <input type='file' name='sql_import' />
                                 <input class='pure-button' type='button' value='Import' />
                             </form>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class='contacts-table'>
