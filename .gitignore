@@ -1,3 +1,6 @@
+# Custom PHP config file
+config.php
+
 # Logs
 logs
 *.log
